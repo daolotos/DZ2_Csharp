@@ -5,7 +5,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 if (N < 100)
 {
-    Console.WriteLine("Это не трехзначное число, попробуйте еще раз");
+    Console.WriteLine("Третьей цифры нет");
     return;
 }
 while (N >= 1000)
